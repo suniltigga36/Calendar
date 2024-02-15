@@ -1,0 +1,49 @@
+body{
+     background-color: moccasin;
+}
+
+h1{
+     font-family:fantasy;
+     font-weight: normal;
+     text-decoration: underline;
+     font-size: 10vh;
+     padding-left: 13px;
+     margin: 0%;
+}
+
+table{
+     font-family:monospace;
+     font-weight: 600;
+     border: 2px solid;
+     border-radius: 10px;
+     font-size: 5vh;
+     background-color:white;
+     /* border collapse is used for full background colour */
+     border-collapse: collapse;
+}
+
+.day{
+     color: white;
+     background-color: purple;
+     font-size: 30px;
+}
+
+.onedigit td{
+     padding-left: 40px;
+}
+
+.same{
+     padding-left: 40px;
+}
+
+td{
+     padding-left: 30px;
+}
+
+td:hover{
+     background-color:lightcyan;
+}
+
+.same th:hover{
+     background-color:lightcyan; 
+}
